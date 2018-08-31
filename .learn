@@ -1,6 +1,7 @@
 tags:
-  - javascript
+  - ajax
+  - fetch
+  - readme
 languages:
   - javascript
-resources:
-  - 1
+resources: 0
