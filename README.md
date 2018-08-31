@@ -70,17 +70,14 @@ You will want to _chain_ a call to `then()` at the end of `fetch()`.
 **REMEMBER**: Since JavaScript doesn't care about whitespace
 
 ```js
-fetch('string representing a URL to a data source').then(response =>
-  response.json()
-);
+fetch("string representing a URL to a data source").then(response => response.json());
 ```
 
 is the same as:
 
 ```js
-fetch('string representing a URL to a data source').then(response =>
-  response.json()
-);
+fetch("string representing a URL to a data source")
+  .then(response => response.json());
 ```
 
 The `then()` takes a function. Here is where you tell JavaScript to ask the
